@@ -17,7 +17,8 @@ def test1():
 def test2():
     li = []
     for i in range(10000):
-        li += [i]  # [] + [1]
+        li = li + [i]
+        #li += [i]  # [] + [1]
 
 #list generator 
 def test3():

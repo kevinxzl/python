@@ -1,3 +1,4 @@
+#encoding=utf-8
 x1 = int(1)
 y1 = int(2.8)
 z1 = int("3")

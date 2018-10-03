@@ -1,3 +1,4 @@
+#encoding=utf-8
 # 可写函数说明
 def printinfo( arg1, arg2, *vartuple ):
    "打印任何传入的参数"

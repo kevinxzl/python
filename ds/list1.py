@@ -1,6 +1,4 @@
-mList = [ ]
-for i in range(5):
-    mList.append(i)
+mList = list(range(8))
 
 print(mList)
 
@@ -27,6 +25,10 @@ print("remove value = 14 ")
 mList.remove(14)
 print(mList)
 
+print("mList.pop():", mList.pop())
+
 print("for in mList")
 for item in mList:
-    print(item)
+    print(item,end="  ")
+
+print()

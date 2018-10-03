@@ -7,6 +7,6 @@ def refq1(mList):
 
 
 if __name__ == '__main__':
-    mList =  [1,2,2,2,2,3,3,3,4,4,4,4]
+    mList =  [1,2,3,4,3,4,4,4,4]
     mMap = refq1(mList)
     print(mMap)
